@@ -4,8 +4,8 @@ public class MagicBox<T> {
 
     T[] items;
 
-    public MagicBox(T[] itemss) {
-        this.items = itemss;
+    public MagicBox(T[] items) {
+        this.items = items;
     }
 
     boolean add(T item) {
